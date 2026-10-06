@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SnapNest</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>SnapNest</h1>
+
+        <p>Discover beautiful images from around the world.</p>
+
+        <form id="search-form">
+
+            <label for="search-input">Search for images</label>
+
+            <div class="search-box">
+                <input
+                    id="search-input"
+                    type="search"
+                    placeholder="Search images..."
+                >
+
+                <button id="search-button" type="submit">
+                    Search
+                </button>
+            </div>
+
+        </form>
+    </header>
+
+
+    <main>
+
+        <div class="categories">
+
+            <button class="chip">Nature</button>
+            <button class="chip">Animals</button>
+            <button class="chip">Cities</button>
+            <button class="chip">Space</button>
+
+        </div>
+
+
+        <p id="result-count">Results will appear here</p>
+
+
+        <p id="empty-message">
+            Search for something to see images here.
+        </p>
+
+
+        <section id="results">
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
